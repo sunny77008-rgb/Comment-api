@@ -1,0 +1,33 @@
+{
+  "name": "flag-counter-battle",
+  "version": "2.0.0",
+  "description": "195 Flags Battle Arena Game Server - Optimized for Render",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "test": "echo 'No tests specified'"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "game",
+    "flags",
+    "battle",
+    "arena",
+    "socket.io",
+    "real-time"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
